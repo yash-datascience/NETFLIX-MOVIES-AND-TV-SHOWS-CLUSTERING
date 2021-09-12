@@ -1,0 +1,4 @@
+# NETFLIX-MOVIES-AND-TV-SHOWS-CLUSTERING
+## Project Summary
+We have been given Netflix movies and tv shows dataset which was collected from Flixable which is a third-party search engine for Netflix.
+We have been given a mixture of textual and numeric columns. We cleaned the data and handled the null values by replacing them with empty strings. We created some new columns such as season count, year_added and performed extensive exploratory data analysis. The last part is to perform clustering on text-based columns. We have selected textual columns and clubbed them together, done text cleaning, text preprocessing, and stemming process. After that to select the optimal number of clusters we used silhouette score and elbow graph and choose 9 as the optimum number of clusters. We plotted interactive visualization for the post-clustering analysis and named those clusters accordingly. We also worked on a co-sin similarity-based recommendation system.
